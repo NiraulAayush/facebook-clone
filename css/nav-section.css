@@ -25,7 +25,7 @@
 .middle-nav-bar{
     text-align: center;
     position: sticky;
-    margin-left: 26%;
+    margin-left: 50px;
     display: inline;
     width: 25px;
     height: 25px;
@@ -43,7 +43,7 @@
     position: sticky;
     text-align: right;
     display: inline;
-    margin-left: 26%;
+    margin-left: 50px;
     color: black;
 }
 .right-nav-bar:hover{
