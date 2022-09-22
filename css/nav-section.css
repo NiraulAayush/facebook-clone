@@ -1,0 +1,56 @@
+.nav-section{
+    background-color: white;;
+}
+.left-nav-bar{
+    text-align: left;
+    position: sticky;
+    display: inline;
+}
+
+.left-nav-bar a,input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    
+}
+.material-icons {
+    color: blue;
+}
+
+.left-nav-bar #searchicon {
+    color: grey;
+    position:sticky;
+}
+
+.middle-nav-bar{
+    text-align: center;
+    position: sticky;
+    margin-left: 26%;
+    display: inline;
+    width: 25px;
+    height: 25px;
+}
+.middle-nav-bar:hover{
+    background-color : rgb(240,242,245);
+}
+
+
+.middle-nav-bar .material-icons{
+    color: grey;
+}
+
+.right-nav-bar{
+    position: sticky;
+    text-align: right;
+    display: inline;
+    margin-left: 26%;
+    color: black;
+}
+.right-nav-bar:hover{
+    background-color: rgb(240,242,245);
+}
+.right-nav-bar img,i{
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
+}
