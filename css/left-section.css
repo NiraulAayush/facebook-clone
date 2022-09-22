@@ -1,5 +1,7 @@
 .left-section {
     text-align: left;
+    width: 25%;
+    overflow-y: scroll;
     
 }
 .left-section img{
