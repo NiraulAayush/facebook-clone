@@ -54,6 +54,8 @@ li:hover{
     font-size: xx-small;
     list-style-type: none;
     display: flex;
-    padding: 5px;
     align-items: center;
+    width: 20%;
+    padding: 5px;
+    justify-content: space-between;
 }
