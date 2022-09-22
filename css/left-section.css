@@ -4,11 +4,11 @@
 }
 .left-section img{
     border-radius: 20px;
-    height: 25px;
+    height: 20px;
     width: 25px;
 }
 
-.first-ul{
+.first-ul {
     list-style-type: none;
     display: list-item;
 }
@@ -23,6 +23,37 @@ a:hover{
     color: black;
 }
 
+
 i:hover{
     color: red;
+}
+
+.second-ul{
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    list-style-type: none;
+    display: list-item;
+}
+.second-ul img{
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    padding: 5px;
+    align-items: center;
+}
+
+li:hover{
+    color: black;
+}
+
+.second-ul p{
+    font-size: small;
+}
+
+.footer ul{
+    font-size: xx-small;
+    list-style-type: none;
+    display: flex;
+    padding: 5px;
+    align-items: center;
 }
