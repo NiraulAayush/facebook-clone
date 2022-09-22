@@ -1,0 +1,27 @@
+.left-section {
+    text-align: left;
+    
+}
+.left-section img{
+    border-radius: 10px;
+    height: 25px;
+    width: 25px;
+}
+
+.first-ul{
+    list-style-type: none;
+}
+a:link{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: transparent;
+    color: black;
+}
+
+a:hover{
+    color: black;
+}
+
+i:hover{
+    color: red;
+}
