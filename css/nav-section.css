@@ -11,14 +11,24 @@
     position: sticky;
     display: flex;
 }
+.left-nav-bar a i{
 
-.material-icons {
-    color: blue;
+    width: 35px;
+    align-items: center;
 }
 
 .left-nav-bar #searchicon {
     color: grey;
-    position:sticky;
+    width: 18px;
+}
+
+.left-nav-bar input {
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+    border-radius: 20px;
 }
 
 .middle-nav-bar:hover{
@@ -34,4 +44,15 @@
     height: 25px;
     border-radius: 20px;
     display: flex;
+    padding: 10px;
+}
+.right-nav-bar button{
+    align-items: center;
+    background-color: rgb(240,242,245);
+    border: 0.2;
+    border-radius: 20px;
+    font: bold;
+}
+.material-icons {
+    color: blue;
 }
