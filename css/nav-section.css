@@ -21,18 +21,6 @@
     position:sticky;
 }
 
-.search-box{
-    width: 350px;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    padding: 0 15px;;
-}
-
-.search-box i{
-    width: 18px;
-}
-
 .middle-nav-bar:hover{
     background-color : rgb(240,242,245);
 }
@@ -45,4 +33,5 @@
     width: 25px;
     height: 25px;
     border-radius: 20px;
+    display: flex;
 }
