@@ -1,0 +1,21 @@
+
+.right-section{
+    justify-content: space-between;
+    box-sizing: border-box;
+    right: 10px;
+    padding: 10px;
+    font-family: inherit;
+    position: absolute;
+    right: 0px;
+    justify-content: center;
+}
+.right-section img{
+    width: 25px;
+    height: 25px;
+    border-radius: 18px;
+    padding: 10px;
+    margin-left: 0px;
+}
+ .right-section ul{
+    list-style-type: none;
+ }
