@@ -1,14 +1,15 @@
 .nav-section{
+    position: sticky;
+    top: 0px;
     background-color: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 5px 5%;
     height: 45px;
+    box-sizing: border-box;
 }
 .left-nav-bar, .right-nav-bar, .middle-nav-bar{
     align-items: center;
-    position: sticky;
     display: flex;
 }
 .left-nav-bar a i{
@@ -19,16 +20,26 @@
 
 .left-nav-bar #searchicon {
     color: grey;
-    width: 18px;
+    width: 10px;
+    height: 21px;
+    position: sticky;
+    left: 10%;
+    
 }
+
 
 .left-nav-bar input {
     width: 100%;
-    background: transparent;
-    padding: 10px;
+    box-sizing: border-box;
+    width: 175px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 9px;
     outline: none;
     border: 0;
     border-radius: 20px;
+    position: fixed;
+    left:10%;
 }
 
 .middle-nav-bar:hover{
@@ -48,10 +59,10 @@
 }
 .right-nav-bar button{
     align-items: center;
-    background-color: rgb(240,242,245);
-    border: 0.2;
-    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
     font: bold;
+    font-family: inherit;
 }
 .material-icons {
     color: blue;
