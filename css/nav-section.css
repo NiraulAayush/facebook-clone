@@ -58,11 +58,14 @@
     padding: 10px;
 }
 .right-nav-bar button{
-    align-items: center;
+    justify-content: center;
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 18px;
     font: bold;
     font-family: inherit;
+    border: none;
+    padding: 8px;
+    font: bold;
 }
 .material-icons {
     color: blue;
