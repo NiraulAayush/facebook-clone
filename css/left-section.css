@@ -1,12 +1,11 @@
 .left-section {
     box-sizing: border-box;
-    width: 25%;
+    display: grid;
+    width: 330px;
     text-align: left;
     height: 70vh;
     overflow-y: auto;
     padding: 5px;
-    transform: translateX(-5%);
-    display: grid;
     justify-content: space-between;
     opacity: 1.0;
     

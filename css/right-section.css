@@ -1,19 +1,18 @@
 
 .right-section{
-    display: flexbox;
+    display: grid;
     box-sizing: border-box;
     right: 10px;
-    padding: 10px;
+    /* padding: 10px; */
     font-family: inherit;
     position: absolute;
     right: 0px;
-    top: 7%;
+    top: 4%;
     margin-top: 0px;
     justify-content: center;
-    height: 70%;
+    height: 70vh;
     overflow-y: auto;
-    width: 25%;
-    opacity: 1.0;
+    width: 330px;
 }
 .contacts{
     display: flex;
