@@ -1,5 +1,9 @@
 body{
-    background-color: rgb(240,242,245);
+    background-color: #F0F2F5;
+    height: 100%;
+    width: 99%;
+    justify-content: space-between;
+    
 }
 .container{
     display: flex;

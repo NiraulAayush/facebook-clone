@@ -1,17 +1,41 @@
 .nav-section{
-    position: sticky;
     top: 0px;
     background-color: white;
     display: flex;
     justify-content: space-between;
-    padding: 5px 5%;
-    height: 45px;
+    position: sticky;
+    top: 0%;
+    transform: translateX(0%);
+    padding: 4px 0%;
+    width: 100%;
+    height: 10vh;
     box-sizing: border-box;
+    margin: 0;
+    opacity: 1.0;
+    ;
 }
 .left-nav-bar, .right-nav-bar, .middle-nav-bar{
-    align-items: center;
+    justify-content: space-between;
     display: flex;
+    align-items: center;
+    width: auto;
+    align-items: center;
 }
+.middle-nav-bar{
+    width: 40%;
+}
+.left-nav-bar{
+    width: 30%;
+}
+.right-nav-bar{
+    width: 30%;
+}
+.left-nav-bar{
+    padding: 10px;
+    margin-left: 15px;
+
+}
+
 .left-nav-bar a i{
 
     width: 35px;
@@ -22,24 +46,22 @@
     color: grey;
     width: 10px;
     height: 21px;
-    position: sticky;
-    left: 10%;
+    position: absolute;
+    left: 5%;
     
 }
 
 
 .left-nav-bar input {
-    width: 100%;
     box-sizing: border-box;
-    width: 175px;
-    text-align: center;
-    background: rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.1);
     padding: 9px;
     outline: none;
+    text-align: center;
     border: 0;
     border-radius: 20px;
-    position: fixed;
-    left:10%;
+    position: absolute;
+    margin: 3%;
 }
 
 .middle-nav-bar:hover{
@@ -61,11 +83,11 @@
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.1);
     border-radius: 18px;
-    font: bold;
     font-family: inherit;
     border: none;
     padding: 8px;
     font: bold;
+    margin-left: 100px;
 }
 .material-icons {
     color: blue;
