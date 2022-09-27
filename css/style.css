@@ -2,7 +2,6 @@ body{
     background-color: #F0F2F5;
     height: 100%;
     width: 99%;
-    justify-content: space-between;
     overflow: hidden;
 }
 .container{

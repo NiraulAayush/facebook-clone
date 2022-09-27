@@ -2,22 +2,22 @@
 .right-section{
     display: grid;
     box-sizing: border-box;
-    right: 10px;
     /* padding: 10px; */
     font-family: inherit;
-    position: absolute;
-    right: 0px;
     top: 4%;
     margin-top: 0px;
     justify-content: center;
     height: 90vh;
+    overflow-x: hidden;
     overflow-y: auto;
-    width: 330px;
 }
 .contacts{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.contacts i{
+    cursor: pointer;
 }
 .right-section img{
     width: 25px;

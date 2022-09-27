@@ -1,29 +1,18 @@
 .main-section{
     height: 90vh;
+    overflow-x: hidden;
     overflow-y: auto;
-    width: 52vw;
-    position: absolute;
-    left: 25%;
-    right: 25%;
     
 }
 .story{
     box-sizing: border-box;
-    position: relative;
-    left: 15%;
-    right: 15%;
-    width: 70%;
     display: flex;
     justify-content: space-evenly;
     margin-top: 18px;
 }
 
-.text-inside-story{
-display: flex;
-width: 10px;
-height: 10px;
-}
 .story img{
+    display: flex;
     margin: 5px;
     width : 112px;
     height: 211px;
@@ -36,9 +25,6 @@ height: 10px;
     background-color: white;
     position: relative;
     left: 20%;
-    right: 20%;
-    justify-content: center;
-    align-items: center;
     margin-top: 18px;
     border-radius: 13px;
 }
@@ -64,20 +50,19 @@ height: 10px;
 }
 .bottom-write{
     width: 100%;
-    display: flex;
-    position: relative;
+    display: inline-flex;
     justify-content: space-around;
-    align-items: center;
 
 }
 .bottom-write ul{
-    display: inline-flex;
-    position: relative;
-    justify-content: center;
+    display: flex;
+    justify-content: space-around;
     list-style-type: none;
-    font-size: small;
+    font-size: xx-small;
+    margin: 8px 0px auto 0px;
     padding: 0px;
 }
+
 
 
 .post{
@@ -135,4 +120,5 @@ height: 10px;
     margin: 10px 0px 0px 0px;
     padding: 0px;
 }
+
 
